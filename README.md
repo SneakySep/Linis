@@ -223,7 +223,7 @@ the `.exe`.
 
 1. **Scan something.** Drop files or a folder onto the drop zone, or use
    *Select File* / *Select Folder*. Folders are walked recursively.
-2. **Add your keys.** *Settings* â†’ paste the MalwareBazaar Auth-Key and the
+2. **Add your keys.** *Settings* → paste the MalwareBazaar Auth-Key and the
    MetaDefender key. *Check quota* reads the live `X-RateLimit-Remaining` value
    from MetaDefender without spending a lookup (it probes a hash OPSWAT already
    has on record).
