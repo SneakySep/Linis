@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# PyInstaller build output
+build/
+dist/
+*.spec
+*.manifest
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
+
+# Runtime state - never commit. HybridShield writes these under
+# %LOCALAPPDATA%\HybridShield\, but keep them out if a run drops one here.
+settings.json
+scan_history.db
+*.sqlite
+*.sqlite3
+*.db
+*.quar
+hybridshield.log
+*.log
+
+# Local sweep output (regenerate with tools/sweep_yara.py)
+sweep_*.json
+sweep_*.log
+
+# Perch / editor / OS noise
+.perch/
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,9 @@
+# HybridShield - Windows hybrid file scanner
+# Python 3.12+ (tested on 3.12 / 3.13 / 3.14)
+
+PySide6>=6.6.0
+watchdog>=4.0.0
+httpx>=0.27.0
+
+# Packaging (optional, only needed to run build.bat)
+pyinstaller>=6.3.0
